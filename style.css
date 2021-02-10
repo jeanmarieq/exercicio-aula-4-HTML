@@ -1,0 +1,37 @@
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 883px;
+    margin: 0px auto;
+}
+
+header > figure{
+    width: 883px;
+    height: 374px;
+    padding: 0px;
+}
+
+header > h1{ 
+    font-weight: black;
+    font-size: 89px;
+    line-height: 79px;
+    color: #FFB300;
+    margin: 0px;
+}
+header > p{
+    font-size: 21px;
+    font-weight: semibold;
+    line-height: 1.61;
+    color: black;
+}
+
+nav{
+    list-style-type: none;
+    font-size: 21px;
+    font-weight: black;
+    color:  #0037B3;
+}
