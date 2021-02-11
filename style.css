@@ -4,34 +4,50 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#container{
+#container{ 
     width: 883px;
     margin: 0px auto;
 }
 
-header > figure{
+figure{
     width: 883px;
     height: 374px;
-    padding: 0px;
+     margin: 0%;
 }
+.cabecera{
+    width: 883px;
+    height: 374px;
+}    
 
 header > h1{ 
     font-weight: black;
     font-size: 89px;
     line-height: 79px;
     color: #FFB300;
-    margin: 0px;
 }
 header > p{
     font-size: 21px;
     font-weight: semibold;
     line-height: 1.61;
     color: black;
+    margin: 0 0 34px 0; 
 }
 
-nav{
-    list-style-type: none;
+nav a {
     font-size: 21px;
     font-weight: black;
     color:  #0037B3;
+    margin: 5px
+}
+
+.title {
+    font-size: 34px;
+    color: #FFB300;
+    font-weight: bold;
+}
+
+ul li {
+    font-size: 21px;
+    font weight: 400px;
+    line-height: 21px * 1.61;
 }
